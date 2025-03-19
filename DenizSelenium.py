@@ -42,7 +42,7 @@ for pageNumber in range(1, totalPages + 1):
         print("captchayı giriniz")
         time.sleep(30)
 
-
+## burada cookies kontrolu düzeltildi
     try:
         driver.find_element(By.ID, "cookiescript_close").click()
     except:
